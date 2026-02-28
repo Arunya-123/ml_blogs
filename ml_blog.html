@@ -1,22 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Data Quality Assessment: Merging and Deduplication</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        pre {
+            background: #f8f8f8;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        code {
+            background: #f8f8f8;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+    </style>
+    <title>ML Blog</title>
 </head>
 <body>
-    <h1>Data Quality Assessment: Merging and Deduplication</h1>
-    <p>In this article, we will explore techniques for assessing data quality, focusing on merging datasets and deduplicating entries. We will use the Iris dataset as a practical example.</p>
-    <h2>The Iris Dataset</h2>
-    <p>The Iris dataset consists of measurements of iris flowers from three species: Setosa, Versicolor, and Virginica. It contains 150 samples with 4 features: sepal length, sepal width, petal length, and petal width.</p>
-    <h2>Code Example</h2>
-    <pre><code>import pandas as pd
+    <div class="container">
+        <h1>Machine Learning Blog</h1>
+        <h2>Understanding Machine Learning Algorithms</h2>
+        <p>Machine learning is a branch of artificial intelligence that involves the study of algorithms that can learn from and make predictions on data.</p>
 
-# Load the Iris dataset
-df = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data',
-                 header=None, names=['SepalLength', 'SepalWidth', 'PetalLength', 'PetalWidth', 'Species'])
+        <h2>Getting Started</h2>
+        <p>To get started with machine learning, you will need...</p>
 
-# Display the first 5 rows
-df.head()</code></pre>
-    <p>In this example, we first load the Iris dataset from a URL. We then display the first 5 rows of the dataframe to verify the contents.</p>
+        <h3>Sample Code</h3>
+        <pre><code class="language-python">def greet(name):
+    print(f'Hello, {name}!')
+
+greet('World')
+        </code></pre>
+
+        <h2>Conclusion</h2>
+        <p>Machine learning is an exciting field that is changing the world.</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
 </body>
 </html>
